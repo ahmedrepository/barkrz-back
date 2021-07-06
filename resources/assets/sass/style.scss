@@ -1,0 +1,35 @@
+.pet_info {
+  padding: 5px;
+  //border-top: solid 1px #7cb08b;
+  display: flex;
+  font-size: 17px;
+  font-family: monospace;
+  div:first-child {
+    width: 50%;
+    text-align: right;
+  }
+  div:nth-child(2) {
+    width: 50%;
+    padding-left: 20px;
+  }
+}
+.pet_image {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  span:nth-child(2) {
+    font-size: 36px;
+  }
+  span:nth-child(3) {
+    font-size: 20px;
+  }
+
+}
